@@ -4,17 +4,10 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
-    link: "#experience",
-  },
-  {
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+
 ];
 
 const words = [
@@ -299,19 +292,21 @@ export const myProjects = [
   href: "https://dev-boatwebsite.pantheonsite.io/"
 },
 
-   {
-  title: "Study Mate",
-  logo: "https://ik.imagekit.io/ad37i/MYPortfolio/image(2).png",
-  logoStyle: { background: "#fff" },
-  desc: "The Online Learning application",
-  displayImage: "https://ik.imagekit.io/ad37i/MYPortfolio/image.png?updatedAt=1750139996938",
+{
+  title: "Obys Agency Clone",
+  logo: "https://obys.agency/wp-content/themes/obys/images/favicon/favicon-32x32.png", // Replace with your actual logo if available
+  logoStyle: { background: "#000" },
+  desc: "Creative Agency Website Clone with GSAP, Locomotive, and ScrollTrigger",
+  displayImage: "https://ik.imagekit.io/ad37i/MYPortfolio/image.png", // Replace with your actual screenshot URL
   tags: [
-    { name: "React", path: "assets/react.svg" },
-    { name: "Tailwind", path: "assets/tailwindcss.png" }
-    
+    { name: "GSAP", path: "https://ik.imagekit.io/ad37i/MYPortfolio/images.png" },
+    { name: "HTML", path: "https://ik.imagekit.io/ad37i/MYPortfolio/download.jpg" },
+    { name: "JavaScript", path: "https://ik.imagekit.io/ad37i/MYPortfolio/download(1).jpg" },
+    { name: "CSS", path: "https://ik.imagekit.io/ad37i/MYPortfolio/avuzxc7c9.webp" },
   ],
-  href: "https://studymate-e9825.web.app/home"
-},
+  href: "https://obys-agency-replica.netlify.app/" // Replace with your actual deployment link
+}
+
 
   
  

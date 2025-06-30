@@ -18,10 +18,11 @@ const About = () => {
           />
           <div className="z-10">
             <p className="headtext">Hi, I'mAditya Bhatt </p>
-            <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
-            </p>
+<p className="subtext">
+  I specialize in frontend development using HTML, CSS, JavaScript, React, GSAP, ScrollTrigger, and WordPress — building smooth, creative, and interactive web experiences.
+</p>
+
+
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
@@ -40,13 +41,13 @@ const About = () => {
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+              style={{ rotate: "-30deg", top: "60%", left: "45%", }}
               text="CSS"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              style={{ rotate: "50deg", bottom: "30%", left: "70%",width:"30%" }}
+              image="https://ik.imagekit.io/ad37i/MYPortfolio/GreenSock_2014.svg"
               containerRef={grid2Container}
             />
             <Card
@@ -60,18 +61,18 @@ const About = () => {
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
+              style={{ rotate: "30deg", top: "70%", left: "70%",width:"15%" }}
+              image="https://ik.imagekit.io/ad37i/MYPortfolio/redux.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              style={{ rotate: "-45deg", top: "70%", left: "25%",width:"15%" }}
+              image="https://ik.imagekit.io/ad37i/MYPortfolio/parcelLogo.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              style={{ rotate: "-45deg", top: "5%", left: "10%",width:"15%" }}
+              image="https://ik.imagekit.io/ad37i/MYPortfolio/Light.svg"
               containerRef={grid2Container}
             />
           </div>

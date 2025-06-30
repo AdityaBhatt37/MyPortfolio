@@ -5,6 +5,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import { navLinks } from "../constants";
 
 const Hero = () => {
   useGSAP(() => {
@@ -51,15 +52,16 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’mAditya Bhatt , a developer based in India with a passion for
-              code.
+              Hi, I’mAditya Bhatt , a developer based in India with a passion
+              for code.
             </p>
+<Button
+  text="See My Work"
+  className="md:w-80 md:h-16 w-60 h-12"
+  id="counter"
+  scrollTargetId="work"
+/>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
           </div>
         </header>
 
@@ -71,7 +73,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <About/>
+      <About />
     </section>
   );
 };
