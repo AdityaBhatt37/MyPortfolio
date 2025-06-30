@@ -7,6 +7,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
+  {
+    name: "About",
+    link: "#about",
+  },
 
 ];
 
